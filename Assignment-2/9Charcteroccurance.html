@@ -1,0 +1,26 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let string = prompt("Enter a string")
+        let letter = prompt("Enter a letter for search");
+        let length = string.length;
+        // alert(length);
+        var counter=0;
+        for(i=0;i<length;i++){
+            if(string[i]==letter){
+                counter++;
+            }
+        }
+        console.log(`The Letter exists ${counter} times`);
+    </script>
+</body>
+
+</html>
